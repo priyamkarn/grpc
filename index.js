@@ -24,6 +24,7 @@ function addPerson(call, callback) {
     PERSONS.push(person);
     callback(null, person);
     //null,person means no error and returns person
+    //call.request contains data
 }
 
 function getPersonByName(call, callback) {
